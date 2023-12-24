@@ -1,0 +1,22 @@
+.button-nav {
+    display: flex;
+    align-items: center;
+    padding: 0 0.8rem;
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.button-nav span {
+    margin-left: 0.5rem;
+}
+
+.button-nav:hover {
+    opacity: 1;
+    transform: scale(1.60);
+    transition: all 0.3s ease-in-out;
+}

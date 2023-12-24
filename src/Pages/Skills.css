@@ -1,0 +1,10 @@
+.skills {
+    padding: 2rem;
+}
+
+.skills-container {
+    margin: 0 0 2rem 0;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+}
