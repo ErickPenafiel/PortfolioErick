@@ -4,8 +4,7 @@ import './Skills.css'
 
 export function Skills () {
   return (
-    <section id='skills' className='skills'>
-        <h2 style={{ marginBottom: '2rem' }}>Skills</h2>
+    <main id='skills' className='skills'>
 
         <div className='skills-container'>
             <SkillCategory name={'Programming Languages'} skills={programmingLanguages} />
@@ -13,6 +12,6 @@ export function Skills () {
             <SkillCategory name={'Backend'} skills={backend} />
             <SkillCategory name={'Version Control'} skills={versionControl} />
         </div>
-    </section>
+    </main>
   )
 }

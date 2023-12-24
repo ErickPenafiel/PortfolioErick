@@ -7,3 +7,15 @@
     text-align: center;
     max-width: 150px;
 }
+
+@media screen and (max-width: 480px) {
+    .skill svg {
+        width: 100%;
+        max-width: 25px;
+        height: auto;
+    }
+
+    .skill p {
+        font-size: 0.75rem;
+    }
+}

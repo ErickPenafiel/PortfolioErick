@@ -36,14 +36,14 @@ export function Navbar () {
         <ButtonNav icon={<MailIcon color='white' width={'24px'} />} link='mailto:penafiel.erick.martin@gmail.com' onMouseEnter={() => handleMouseEnter('email')} onMouseLeave={() => handleMouseLeave('email')} />
       </nav>
       <div className='tooltips'>
-        <span className={`tooltip ${tooltipVisibility.home ? 'visible' : ''}`}>Home</span>
-        <span style={{ left: '5px' }} className={`tooltip ${tooltipVisibility.skills ? 'visible' : ''}`}>Skills</span>
-        <span style={{ left: '4px' }} className={`tooltip ${tooltipVisibility.projects ? 'visible' : ''}`}>Projects</span>
-        <span style={{ left: '-5px' }} className={`tooltip ${tooltipVisibility.contact ? 'visible' : ''}`}>Contact</span>
+        <span className={`tooltip home-tooltip ${tooltipVisibility.home ? 'visible' : ''}`}>Home</span>
+        <span className={`tooltip skills-tooltip ${tooltipVisibility.skills ? 'visible' : ''}`}>Skills</span>
+        <span className={`tooltip projects-tooltip ${tooltipVisibility.projects ? 'visible' : ''}`}>Projects</span>
+        <span className={`tooltip contact-tooltip ${tooltipVisibility.contact ? 'visible' : ''}`}>Contact</span>
         <span className='tooltip'>|</span>
-        <span style={{ left: '2px' }} className={`tooltip ${tooltipVisibility.linkedin ? 'visible' : ''}`}>LinkedIn</span>
-        <span style={{ left: '-6px' }} className={`tooltip ${tooltipVisibility.github ? 'visible' : ''}`}>Github</span>
-        <span style={{ left: '-6px' }} className={`tooltip ${tooltipVisibility.email ? 'visible' : ''}`}>Email</span>
+        <span className={`tooltip linkedin-tooltip ${tooltipVisibility.linkedin ? 'visible' : ''}`}>LinkedIn</span>
+        <span className={`tooltip github-tooltip ${tooltipVisibility.github ? 'visible' : ''}`}>Github</span>
+        <span className={`tooltip email-tooltip ${tooltipVisibility.email ? 'visible' : ''}`}>Email</span>
       </div>
     </div>
   )

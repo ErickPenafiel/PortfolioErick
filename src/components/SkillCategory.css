@@ -18,3 +18,18 @@
     transform: scale(1.05);
     transition: all 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 480px) {
+    .category {
+        padding: 1rem;
+        max-width: 350px;
+        filter: grayscale(0%);
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .category h3 {
+        font-size: 1rem;
+    }
+
+}
