@@ -1,10 +1,10 @@
 import { useLayoutEffect } from 'react'
 import './App.css'
-import { ContactMe } from './Pages/ContactMe'
 import { Home } from './Pages/Home'
 import { Layout } from './Pages/Layout'
-import { Projects } from './Pages/Projects'
 import { Skills } from './Pages/Skills'
+import { Projects } from './Pages/Projects'
+import { ContactMe } from './Pages/ContactMe'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App () {
