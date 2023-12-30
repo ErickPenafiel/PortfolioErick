@@ -4,7 +4,7 @@ export const projects = [
     title: 'Tic Tac Toe',
     tecnologies: ['HTML', 'CSS', 'Javascript', 'React'],
     description: 'Tic tac toe game made with React',
-    image: 'src/assets/images/TicTacToe.webp',
+    image: 'assets/images/TicTacToe.webp',
     web: 'https://tictactoe-penafiel.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/02-tres-en-raya'
   },
@@ -13,7 +13,7 @@ export const projects = [
     title: 'Mouse Follower',
     tecnologies: ['HTML', 'CSS', 'Javascript', 'React'],
     description: 'A mouse follower made with React',
-    image: 'src/assets/images/MouseFollower.webp',
+    image: 'assets/images/MouseFollower.webp',
     web: 'https://shimmering-sunflower-0f2431.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/03-mouse-follower'
   },
@@ -22,7 +22,7 @@ export const projects = [
     title: 'Search Movies',
     tecnologies: ['HTML', 'CSS', 'Javascript', 'React'],
     description: 'Search movies made with React',
-    image: 'src/assets/images/SearchMovies.webp',
+    image: 'assets/images/SearchMovies.webp',
     web: 'https://playful-bavarois-db52d9.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/05-react-buscador-peliculas'
   },
@@ -31,7 +31,7 @@ export const projects = [
     title: 'Cart Shop',
     tecnologies: ['HTML', 'CSS', 'Javascript', 'React'],
     description: 'Cart shop made with React',
-    image: 'src/assets/images/CartShop.webp',
+    image: 'assets/images/CartShop.webp',
     web: 'https://exquisite-phoenix-7b195c.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/06-shopping-cart'
   },
@@ -40,7 +40,7 @@ export const projects = [
     title: 'Counting Objects',
     tecnologies: ['Python', 'Pytorch'],
     description: 'Counting objects made with Pytorch YOLOv8 and DeepSort',
-    image: 'src/assets/images/CountingObjects.webp',
+    image: 'assets/images/CountingObjects.webp',
     repository: 'https://github.com/ErickPenafiel/TrackingCountingObjects'
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     title: 'Weed Detection in Agricultural Fields',
     tecnologies: ['Python', 'Pytorch'],
     description: 'Weed detection in agricultural fields made with Pytorch YOLOv8 and DeepSort',
-    image: 'src/assets/images/WeedDetection.webp',
+    image: 'assets/images/WeedDetection.webp',
     repository: 'https://github.com/ErickPenafiel/DeteccionMalezas'
   },
   {
@@ -56,7 +56,7 @@ export const projects = [
     title: 'Crud - React with Redux',
     tecnologies: ['HTML', 'CSS', 'Typescript', 'React'],
     description: 'Crud made with React and Redux',
-    image: 'src/assets/images/CrudReactRedux.webp',
+    image: 'assets/images/CrudReactRedux.webp',
     web: 'https://superb-bunny-36fa1f.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/CrudReactRedux'
   }
