@@ -7,9 +7,9 @@ export function Projects () {
     <main id='projects' className='projects'>
         <div className='list-projects'>
             {
-                projects.map(({ image, title, description, web, repository, id }) => {
+                projects.map(({ video, title, description, web, repository, id }) => {
                   return (
-                    <Project image={image} title={title} description={description} web={web} repository={repository} key={id} />
+                    <Project video={video} title={title} description={description} web={web} repository={repository} key={id} />
                   )
                 })
             }

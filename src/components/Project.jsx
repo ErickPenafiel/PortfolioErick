@@ -1,13 +1,13 @@
 import { CssIcon, HtmlIcon, JavaScriptIcon, LaravelIcon } from '../components/Icons'
 import { GithubIcon, WebIcon } from '../components/NavbarIcons'
 
-export function Project ({ image, title, tecnologies, description, web, repository }) {
+export function Project ({ video, title, tecnologies, description, web, repository }) {
   return (
     <div className="project">
-      <img src={image} alt="" />
-      {/* <video loop autoPlay={true} muted>
+      {/* <img src={image} alt="" /> */}
+      <video loop autoPlay={true} muted>
           <source src={video} type='video/webm' />
-      </video> */}
+      </video>
       <div className='information-project'>
           <p className='project-title'>{title}</p>
           <p className='project-tecnology'><HtmlIcon color='white' width={'20px'} /> <CssIcon color='white' width={'20px'} /> <JavaScriptIcon color='white' width={'20px'} /> <LaravelIcon color='white' width={'20px'} /></p>
