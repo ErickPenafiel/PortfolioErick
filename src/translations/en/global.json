@@ -1,0 +1,20 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact",
+        "language": "Language"
+    },
+    "home": {
+        "title": "Hi, I'm Erick",
+        "subtitle": "Computer Science Engineer",
+        "subtitle2": "Full Stack Developer",
+        "description": "I am a passionate developer with a strong background and experience in both client-side and server-side development. My focus is on creating efficient and scalable technological solutions."
+    },
+    "skills": {
+        "programming": "Programming Languages",
+        "versionControl": "Version Control"
+    }
+}

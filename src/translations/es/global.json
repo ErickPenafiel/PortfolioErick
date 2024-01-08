@@ -1,0 +1,20 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Acerca de mi",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "language": "Idioma"
+    },
+    "home": {
+        "title": "Hola, Soy Erick",
+        "subtitle": "Ing. Ciencias de la Computación",
+        "subtitle2": "Desarrollador Full Stack",
+        "description": "Soy un apasionado desarrollador con una sólida formación y experiencia tanto en el lado del cliente como en el servidor. Mi enfoque se centra en crear soluciones tecnológicas eficientes y escalables."
+    },
+    "skills": {
+        "programming": "Lenguajes de Programacion",
+        "versionControl": "Control de Versiones"
+    }
+}

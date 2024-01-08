@@ -11,30 +11,24 @@ body {
 }
 
 .project {
-  width: 100%;
   max-width: 400px;
   margin: 0 auto;
-  background-color: #242424;
-  margin-bottom: -145px;
-  padding: 0.3rem;
+  background-color: #1a1919;
   overflow: hidden;
   border-radius: 15px;
+  margin-bottom: 0.5rem;
 }
 
 .project img,
 .project video {
   max-width: 100%;
   display: block;
-  border-radius: 15px;
-  border: 1px solid black;
 }
 
 .information-project {
-  position: relative;
+  padding: 1.5rem;
   border-radius: 0 0 15px 15px;
-  top: -180px;
-  left: -400px;
-  opacity: 0;
+  opacity: 1;
   user-select: none;
   transition: all 0.3s ease-in-out;
 }
@@ -42,10 +36,14 @@ body {
 .information-project .project-title,
 .information-project .project-tecnology,
 .information-project .project-description {
-  position: relative;
-  padding-left: 1rem;
   margin-bottom: 0.5rem;
   transition: all 0.3s ease-in-out;
+}
+
+.information-project .project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+
 }
 
 .project-description {
@@ -60,8 +58,9 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
-.project:hover img {
-  opacity: 0.5;
+.project:hover img,
+.project:hover video {
+
   transition: all 0.3s ease-in-out;
 }
 
@@ -202,7 +201,6 @@ body {
 
 .btn-project {
   border-radius: 15px;
-  background-color: black;
   padding: 0.5rem;
   text-decoration: none;
   display: flex;
@@ -213,4 +211,11 @@ body {
   width: 100%;
   font-size: small;
   color: white;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-project:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
 }

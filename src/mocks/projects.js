@@ -56,7 +56,7 @@ export const projects = [
     title: 'Crud - React with Redux',
     tecnologies: ['HTML', 'CSS', 'Typescript', 'React'],
     description: 'Crud made with React and Redux',
-    movie: 'assets/movies/CrudReactRedux.webm',
+    movie: 'assets/movies/ReduxCrud.webm',
     web: 'https://superb-bunny-36fa1f.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/CrudReactRedux'
   }

@@ -1,10 +1,10 @@
 .skills {
     padding: 2rem;
+    background: radial-gradient(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
+    min-height: 100vh;
 }
 
 .skills-container {
-    margin: 0 0 2rem 0;
-    padding: 0 1rem;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +15,6 @@
         align-items: center;
         justify-content: center;
         padding: 1rem;
-        margin-top: 2rem;
     }
 
     .skills-container {

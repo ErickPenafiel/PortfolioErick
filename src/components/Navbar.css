@@ -26,12 +26,31 @@
 
 .tooltip {
     padding: 0.5rem;
-    background-color: black;
+    background-color: #242424;
     border-radius: 5px;
     opacity: 0;
     position: relative;
     transition: all 0.2s ease-in-out;
     user-select: none;
+    font-size: 0.75rem;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -27px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-languages {
+    background-color: #242424;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 0.1rem;
     font-size: 0.75rem;
 }
 
@@ -66,6 +85,34 @@
 }
 
 
+.tooltip.home-tooltip-es {
+    left: 20px !important;
+}
+
+.tooltip.skills-tooltip-es {
+    left: 10px !important;
+}
+
+.tooltip.projects-tooltip-es {
+    left: -10px !important;
+}
+
+.tooltip.contact-tooltip-es {
+    left: -25px !important;
+}
+
+.tooltip.linkedin-tooltip-es {
+    left: -23px !important;
+}
+
+.tooltip.github-tooltip-es {
+    left: -27px !important;
+}
+
+.tooltip.email-tooltip-es {
+    left: -27px !important;
+}
+
 @media screen and (max-width: 480px) {
     .nav {
         max-width: 360px;
@@ -98,5 +145,33 @@
 
     .tooltip.email-tooltip {
         left: -25px !important;
+    }
+
+    .tooltip.home-tooltip-es {
+        left: 55px !important;
+    }
+
+    .tooltip.skills-tooltip-es {
+        left: 30px !important;
+    }
+
+    .tooltip.projects-tooltip-es {
+        left: 0px !important;
+    }
+
+    .tooltip.contact-tooltip-es {
+        left: -23px !important;
+    }
+
+    .tooltip.linkedin-tooltip-es {
+        left: -28px !important;
+    }
+
+    .tooltip.github-tooltip-es {
+        left: -45px !important;
+    }
+
+    .tooltip.email-tooltip-es {
+        left: -50px !important;
     }
 }

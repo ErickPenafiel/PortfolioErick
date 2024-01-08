@@ -3,12 +3,12 @@
     height: 100vh;
     background-image: url('../assets/images/tom-ritson-DBYV_V5spes-unsplash.webp');
     background-size: cover;
-    z-index: -1;
+    z-index: -2;
 }
 
 .filterBlack {
     background-color: black;
-    opacity: 0.5;
+    opacity: 0.6;
     width: 100%;
     height: 100vh;
     position: absolute;
@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    z-index: 1;
+    z-index: 0;
 }
 
 .information {
@@ -57,4 +57,26 @@
         margin-right: 0;
         margin-bottom: 2rem;
     }
+}
+
+.btn-cv {
+    background-color: #242424;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.5rem;
+    opacity: 0.8;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-cv:hover {
+    opacity: 1;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
 }

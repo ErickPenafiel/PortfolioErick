@@ -1,5 +1,5 @@
 import { Project } from '../components/Project'
-import { projects } from '../mocks/projects'
+import { projects } from '../mocks/projects.js'
 import './Projects.css'
 
 export function Projects () {
