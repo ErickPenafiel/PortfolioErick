@@ -20,7 +20,7 @@
     justify-content: space-around;
     align-items: center;
     position: fixed;
-    bottom: 80px;
+    bottom: 70px;
     z-index: 2;
 }
 
@@ -39,7 +39,18 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: -27px;
+    left: -50px;
+    bottom: -6px;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.languages-es {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -63px;
+    bottom: -6px;
     opacity: 0;
     transition: all 0.2s ease-in-out;
 }
@@ -52,65 +63,70 @@
     border-radius: 5px;
     margin-bottom: 0.1rem;
     font-size: 0.75rem;
+    user-select: none;
 }
 
 .visible {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     opacity: 1;
     transition: all 0.2s ease-in-out;
 }
 
+.tooltip.home-tooltip {
+    left: 25px !important;
+}
+
 .tooltip.skills-tooltip {
-    left: 5px !important;
+    left: 30px !important;
 }
 
 .tooltip.projects-tooltip {
-    left: 4px !important;
+    left: 25px !important;
 }
 
 .tooltip.contact-tooltip {
-    left: -5px !important;
+    left: 12px !important;
 }
 
 .tooltip.linkedin-tooltip {
-    left: 2px !important;
+    left: -22px !important;
 }
 
 .tooltip.github-tooltip {
-    left: -6px !important;
+    left: -28px !important;
 }
 
 .tooltip.email-tooltip {
-    left: -6px !important;
+    left: -27px !important;
 }
 
 
 .tooltip.home-tooltip-es {
-    left: 20px !important;
+    left: 40px !important;
 }
 
 .tooltip.skills-tooltip-es {
-    left: 10px !important;
+    left: 25px !important;
 }
 
 .tooltip.projects-tooltip-es {
-    left: -10px !important;
+    left: 5px !important;
 }
 
 .tooltip.contact-tooltip-es {
-    left: -25px !important;
+    left: -8px !important;
 }
 
 .tooltip.linkedin-tooltip-es {
-    left: -23px !important;
+    left: -43px !important;
 }
 
 .tooltip.github-tooltip-es {
-    left: -27px !important;
+    left: -42px !important;
 }
 
 .tooltip.email-tooltip-es {
-    left: -27px !important;
+    left: -43px !important;
 }
 
 @media screen and (max-width: 480px) {
@@ -120,58 +136,58 @@
     }
 
     .tooltip.home-tooltip {
-        left: 30px !important;
-    }
-
-    .tooltip.skills-tooltip {
-        left: 20px !important;
-    }
-
-    .tooltip.projects-tooltip {
-        left: 15px !important;
-    }
-
-    .tooltip.contact-tooltip {
-        left: -5px !important;
-    }
-
-    .tooltip.linkedin-tooltip {
-        left: -5px !important;
-    }
-
-    .tooltip.github-tooltip {
-        left: -20px !important;
-    }
-
-    .tooltip.email-tooltip {
-        left: -25px !important;
-    }
-
-    .tooltip.home-tooltip-es {
         left: 55px !important;
     }
 
+    .tooltip.skills-tooltip {
+        left: 45px !important;
+    }
+
+    .tooltip.projects-tooltip {
+        left: 35px !important;
+    }
+
+    .tooltip.contact-tooltip {
+        left: 15px !important;
+    }
+
+    .tooltip.linkedin-tooltip {
+        left: -30px !important;
+    }
+
+    .tooltip.github-tooltip {
+        left: -48px !important;
+    }
+
+    .tooltip.email-tooltip {
+        left: -55px !important;
+    }
+
+    .tooltip.home-tooltip-es {
+        left: 65px !important;
+    }
+
     .tooltip.skills-tooltip-es {
-        left: 30px !important;
+        left: 45px !important;
     }
 
     .tooltip.projects-tooltip-es {
-        left: 0px !important;
+        left: 17px !important;
     }
 
     .tooltip.contact-tooltip-es {
-        left: -23px !important;
+        left: -3px !important;
     }
 
     .tooltip.linkedin-tooltip-es {
-        left: -28px !important;
-    }
-
-    .tooltip.github-tooltip-es {
         left: -45px !important;
     }
 
+    .tooltip.github-tooltip-es {
+        left: -60px !important;
+    }
+
     .tooltip.email-tooltip-es {
-        left: -50px !important;
+        left: -69px !important;
     }
 }
