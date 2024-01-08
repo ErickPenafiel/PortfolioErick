@@ -13,12 +13,12 @@ export function Home () {
 		<div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
 			<div className="about-me">
 					<div className='information'>
-							<h1 style={{ fontSize: '3rem' }}>{t('home.title')}</h1>
-							<h2 style={{ background: 'radial-gradient(at right center, rgb(56, 189, 248), rgb(49, 46, 129))', backgroundClip: 'text', color: 'transparent', fontSize: '1.7rem' }}>
+							<h1 className='title'>{t('home.title')}</h1>
+							<h2 className='subtitle'>
 									<Typewriter options={{ strings: [t('home.subtitle'), t('home.subtitle2')], autoStart: true, loop: true }}
 									/>
 							</h2>
-							<p style={{ fontSize: '1.2rem' }}>
+							<p className='description'>
 								{t('home.description')}
 							</p>
 

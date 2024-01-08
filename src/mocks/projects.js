@@ -54,7 +54,7 @@ export const projects = [
   {
     id: crypto.randomUUID(),
     title: 'Crud - React with Redux',
-    tecnologies: ['HTML', 'CSS', 'Typescript', 'React'],
+    tecnologies: ['HTML', 'CSS', 'Typescript', 'React', 'Redux'],
     description: 'Crud made with React and Redux',
     movie: 'assets/movies/ReduxCrud.webm',
     web: 'https://superb-bunny-36fa1f.netlify.app/',

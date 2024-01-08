@@ -10,60 +10,6 @@ body {
   text-align: center;
 }
 
-.project {
-  max-width: 400px;
-  margin: 0 auto;
-  background-color: #1a1919;
-  overflow: hidden;
-  border-radius: 15px;
-  margin-bottom: 0.5rem;
-}
-
-.project img,
-.project video {
-  max-width: 100%;
-  display: block;
-}
-
-.information-project {
-  padding: 1.5rem;
-  border-radius: 0 0 15px 15px;
-  opacity: 1;
-  user-select: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.information-project .project-title,
-.information-project .project-tecnology,
-.information-project .project-description {
-  margin-bottom: 0.5rem;
-  transition: all 0.3s ease-in-out;
-}
-
-.information-project .project-title {
-  font-size: 1.3rem;
-  font-weight: bold;
-
-}
-
-.project-description {
-  font-size: 14px;
-  padding: 0.5rem 0;
-}
-
-.project:hover .information-project {
-  user-select: all;
-  opacity: 1;
-  left: 0;
-  transition: all 0.3s ease-in-out;
-}
-
-.project:hover img,
-.project:hover video {
-
-  transition: all 0.3s ease-in-out;
-}
-
 #contact {
   height: 100vh;
   display: flex;
@@ -197,25 +143,4 @@ body {
   height: auto;
   display: block;
   margin: auto;
-}
-
-.btn-project {
-  border-radius: 15px;
-  padding: 0.5rem;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  max-width: 125px;
-  width: 100%;
-  font-size: small;
-  color: white;
-  opacity: 0.5;
-  transition: all 0.3s ease-in-out;
-}
-
-.btn-project:hover {
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
 }
