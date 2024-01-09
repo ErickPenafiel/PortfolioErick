@@ -27,6 +27,11 @@
     transition: all 0.3s ease-in-out;
 }
 
+.project-tecnology {
+    display: flex;
+    gap: 0.5rem;
+}
+
 .information-project .project-title {
     font-size: 1.3rem;
     font-weight: bold;

@@ -70,10 +70,10 @@ export function Navbar () {
         <div className={`
           ${i18n.language === 'es' ? 'languages-es' : 'languages'} 
           ${tooltipVisibility.language ? 'visible' : ''}`}>
-          <button className="btn-languages" onClick={() => handleChangeLanguage('es')}>
+          <button className="btn-languages" onClick={() => handleChangeLanguage('es')} disabled={!tooltipVisibility.language}>
             Español
           </button>
-          <button className="btn-languages" onClick={() => handleChangeLanguage('en')}>
+          <button className="btn-languages" onClick={() => handleChangeLanguage('en')} disabled={!tooltipVisibility.language}>
             English
           </button>
         </div>

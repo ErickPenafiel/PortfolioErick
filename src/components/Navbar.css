@@ -66,6 +66,17 @@
     user-select: none;
 }
 
+.languages-es .btn-languages,
+.languages .btn-languages {
+    user-select: none;
+    cursor: default;
+}
+
+.visible .btn-languages:hover {
+    cursor: pointer;
+    user-select: auto;
+}
+
 .visible {
     margin-bottom: 20px;
     opacity: 1;

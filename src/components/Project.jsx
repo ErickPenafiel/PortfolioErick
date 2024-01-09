@@ -9,7 +9,7 @@ export function Project ({ movie, title, tecnologies, description, web, reposito
           <source src={movie} type='video/webm' />
       </video>
       <div className='information-project'>
-          <p className='project-title'>{title} HOla</p>
+          <p className='project-title'>{title}</p>
           <p className='project-description'>{description}</p>
 
           <TechList techs={tecnologies} />

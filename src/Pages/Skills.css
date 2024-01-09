@@ -2,23 +2,51 @@
     padding: 2rem;
     background: radial-gradient(at right center, rgb(56, 189, 248), rgb(49, 46, 129));
     min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
 }
 
 .skills-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.skills-description {
+    padding: 2rem;
+    background-color: #1a1919;
+    border-radius: 15px;
+    width: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.skills-description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.skills-description ul li {
+    width: 100%;
+    max-width: 500px;
+    list-style: none;
 }
 
 @media screen and (max-width: 468px) {
     .skills {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-        padding: 2rem 1rem;
+        padding: 1rem;
+        max-width: 100%;
     }
 
     .skills-container {
         padding: 0;
     }
 
+    .skills-description {
+        display: grid;
+        place-content: center;
+        width: 100%;
+    }
 }

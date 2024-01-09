@@ -4,13 +4,14 @@
     justify-items: center;
     align-items: center;
     grid-gap: 1rem;
-    margin: 0 0 2rem 0;
+    margin: 0 0 1rem 0;
     background-color: #1a1919;
-    padding: 2rem;
+    padding: 1.5rem 3rem;
     border-radius: 15px;
     filter: grayscale(100%);
     transition: all 0.5s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
 }
 
 .category:hover {
@@ -19,10 +20,9 @@
     transition: all 0.5s ease-in-out;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 468px) {
     .category {
         padding: 1rem;
-        max-width: 350px;
         filter: grayscale(0%);
         width: 100%;
         margin-bottom: 1rem;

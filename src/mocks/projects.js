@@ -1,6 +1,14 @@
 export const projects = [
   {
     id: crypto.randomUUID(),
+    title: 'Industrial Safety',
+    tecnologies: ['Bootstrap', 'PHP', 'Laravel'],
+    description: 'Web application for the management of industrial safety for managers, supervisors and workers.',
+    movie: 'assets/movies/IndustrialSafety.webm',
+    repository: 'https://github.com/ErickPenafiel/IndustrialSafety'
+  },
+  {
+    id: crypto.randomUUID(),
     title: 'Tic Tac Toe',
     tecnologies: ['HTML', 'CSS', 'Javascript', 'React'],
     description: 'Tic tac toe game made with React',

@@ -1,4 +1,4 @@
-import { HtmlIcon, CssIcon, ExpressIcon, JavaScriptIcon, LaravelIcon, MongoDbIcon, MySqlIcon, NodeJsIcon, PhpIcon, ReactIcon, PythonIcon, PytorchIcon, TypescriptIcon, ReduxIcon } from './Icons'
+import { HtmlIcon, CssIcon, ExpressIcon, JavaScriptIcon, LaravelIcon, MongoDbIcon, MySqlIcon, NodeJsIcon, PhpIcon, ReactIcon, PythonIcon, PytorchIcon, TypescriptIcon, ReduxIcon, BootstrapIcon } from './Icons'
 
 export function TechList ({ techs }) {
   return (
@@ -34,6 +34,8 @@ export function TechList ({ techs }) {
               return <TypescriptIcon key={index} width='30px' />
             case 'redux':
               return <ReduxIcon key={index} width='30px' />
+            case 'bootstrap':
+              return <BootstrapIcon key={index} width='30px' />
             default:
               return null
           }
