@@ -6,6 +6,15 @@ import { useTranslation } from 'react-i18next'
 export function Home () {
   const { t } = useTranslation('global')
 
+  const downloadFile = (url) => {
+    const link = document.createElement('a')
+    link.href = url
+    link.setAttribute('download', '')
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
+  }
+
   return (
     <main className='image' id='home'>
 		<div className='filterBlack'></div>
@@ -23,13 +32,13 @@ export function Home () {
 							</p>
 
 							<div style={{ marginTop: '1rem', display: 'flex' }}>
-								<button className='btn-cv'>
+								<a onClick={() => downloadFile('assets/documents/CV - Peñafiel Picha Erick Martin.pdf')} className='btn-cv'>
 									<PdfIcon width='30px' /> CV - Español
-								</button>
+								</a>
 
-								<button className='btn-cv' style={{ marginLeft: '0.5rem' }}>
+								<a onClick={() => downloadFile('assets/documents/CV - Peñafiel Picha Erick Martin - Ingles.pdf')} className='btn-cv' style={{ marginLeft: '0.5rem' }}>
 									<PdfIcon width='30px' /> CV - English
-								</button>
+								</a>
 							</div>
 					</div>
 
