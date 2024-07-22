@@ -30,7 +30,7 @@
 }
 
 .bars>div {
-    background: rgb(79, 25, 186);
+    background: #334c9a;
     transform: translateX(-100%);
 }
 

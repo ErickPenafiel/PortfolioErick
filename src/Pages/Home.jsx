@@ -43,7 +43,7 @@ export function Home () {
 					</div>
 
 					<div className="profile-image">
-							<img src="https://avatars.githubusercontent.com/u/5464612?v=4" alt="profile" />
+							<img src="assets/images/foto_perfil.jpg" alt="profile" />
 					</div>
 				</div>
 			</div>

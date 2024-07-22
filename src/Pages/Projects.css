@@ -5,7 +5,7 @@
 }
 
 .list-projects {
-    columns: 4 320px;
+    columns: 3 450px;
     column-gap: 0.5rem;
     row-gap: 0.5rem;
 }

@@ -28,7 +28,6 @@ export function Navbar () {
   }
 
   const handleClick = () => {
-    console.log('click')
     setTooltipVisibility((prevState) => ({ ...prevState, contact: !prevState.contact, language: !prevState.language }))
   }
 
@@ -50,7 +49,7 @@ export function Navbar () {
           onMouseLeave={() => handleMouseLeave('contact')}
           onClick={handleClick} />
         <span style={{ backgroundColor: 'white', padding: '5px 0', opacity: '0.5', borderRadius: '5px', margin: '0 1rem', userSelect: 'none' }}>|</span>
-        <ButtonNav icon={<LinkedInIcon width={'24px'} />} link='about' onMouseEnter={() => handleMouseEnter('linkedin')} onMouseLeave={() => handleMouseLeave('linkedin')} />
+        <ButtonNav icon={<LinkedInIcon width={'24px'} />} link='https://www.linkedin.com/in/erick-pe%C3%B1afiel/' onMouseEnter={() => handleMouseEnter('linkedin')} onMouseLeave={() => handleMouseLeave('linkedin')} />
         <ButtonNav icon={<GithubIcon width={'24px'} />} link='https://github.com/ErickPenafiel' onMouseEnter={() => handleMouseEnter('github')} onMouseLeave={() => handleMouseLeave('github')} />
         <ButtonNav icon={<MailIcon width={'24px'} />} link='mailto:penafiel.erick.martin@gmail.com' onMouseEnter={() => handleMouseEnter('email')} onMouseLeave={() => handleMouseLeave('email')} />
       </nav>

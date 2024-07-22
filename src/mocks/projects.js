@@ -1,20 +1,20 @@
 export const projects = [
   {
     id: crypto.randomUUID(),
-    title: 'Industrial Safety',
-    tecnologies: ['Bootstrap', 'PHP', 'Laravel'],
-    description: 'Web application for the management of industrial safety for managers, supervisors and workers.',
-    movie: 'assets/movies/IndustrialSafety.webm',
-    repository: 'https://github.com/ErickPenafiel/IndustrialSafety'
+    title: 'Route Optimizer',
+    tecnologies: ['Angular', 'Nestjs', 'MySQL', 'flutter'],
+    description: 'RouteOptimizer is a system designed for route optimization and real-time monitoring. It was built using Angular, NestJS, MySQL, Flutter, and the APIs of Mapbox and Google Maps.',
+    movie: 'assets/movies/RouteOptimizer.webm',
+    repository: 'https://github.com/ErickPenafiel/RouteOptimizer'
   },
   {
     id: crypto.randomUUID(),
-    title: 'Tic Tac Toe',
-    tecnologies: ['HTML', 'CSS', 'Javascript', 'React'],
+    title: 'Inventories Bookstore',
+    tecnologies: ['C#'],
     description: 'Tic tac toe game made with React',
-    movie: 'assets/movies/TicTacToe.webm',
-    web: 'https://tictactoe-penafiel.netlify.app/',
-    repository: 'https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/02-tres-en-raya'
+    movie: 'assets/movies/InventoriesBookstore.webm',
+    // web: 'https://tictactoe-penafiel.netlify.app/',
+    repository: 'https://github.com/ErickPenafiel/InventoriesBookstore.git'
   },
   {
     id: crypto.randomUUID(),
@@ -24,6 +24,14 @@ export const projects = [
     movie: 'assets/movies/MouseFollower.webm',
     web: 'https://shimmering-sunflower-0f2431.netlify.app/',
     repository: 'https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/03-mouse-follower'
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Industrial Safety',
+    tecnologies: ['Bootstrap', 'PHP', 'Laravel'],
+    description: 'Web application for the management of industrial safety for managers, supervisors and workers.',
+    movie: 'assets/movies/IndustrialSafety.webm',
+    repository: 'https://github.com/ErickPenafiel/IndustrialSafety'
   },
   {
     id: crypto.randomUUID(),
