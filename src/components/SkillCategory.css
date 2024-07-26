@@ -1,9 +1,9 @@
 .category {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     justify-items: center;
     align-items: center;
-    grid-gap: 1rem;
+    grid-gap: .5rem;
     margin: 0 0 1rem 0;
     background-color: #1a1919;
     padding: 1.5rem 3rem;
@@ -12,6 +12,17 @@
     transition: all 0.5s ease-in-out;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 100%;
+}
+
+.category h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.technologies-category {
+    display: flex;
+    gap: .5rem;
 }
 
 .category:hover {

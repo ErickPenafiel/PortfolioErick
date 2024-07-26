@@ -11,16 +11,20 @@ import i18next from 'i18next'
 
 import globalEs from './translations/es/global.json'
 import globalEn from './translations/en/global.json'
+import projectsEs from './translations/es/projects.json'
+import projectsEn from './translations/en/projects.json'
 
 i18next.init({
   interpolation: { escapeValue: false },
   lng: navigator.language.split('-')[0],
   resources: {
     es: {
-      global: globalEs
+      global: globalEs,
+      projects: projectsEs
     },
     en: {
-      global: globalEn
+      global: globalEn,
+      projects: projectsEn
     }
   }
 })

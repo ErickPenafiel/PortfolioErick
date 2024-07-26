@@ -17,11 +17,10 @@
         "title": "Skills",
         "programming": "Programming Languages",
         "versionControl": "Version Control",
-        "description1": "Frontend Development: Designing intuitive and appealing user interfaces using frameworks such as React and Astro.",
-        "description2": "Backend Development: Building RESTful APIs using Node.js and Express.",
+        "description1": "Frontend Development: Designing intuitive and appealing user interfaces using frameworks such as React, Angular and Astro.",
+        "description2": "Backend Development: Building RESTful APIs using Node.js, Express and NestJS.",
         "description3": "Database: Designing relational and non-relational databases using MySQL and MongoDB.",
         "description4": "Version Control: Using Git for project version control.",
-        "description5": "Agile Methodologies: Experience working with agile methodologies like Scrum.",
-        "description6": "Designing intuitive and appealing user interfaces using frameworks such as React and Angular."
+        "description5": "Agile Methodologies: Experience working with agile methodologies like Scrum."
     }
 }

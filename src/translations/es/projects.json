@@ -1,0 +1,109 @@
+{
+  "projects": [
+    {
+      "title": "Optimizador de Rutas",
+      "tecnologies": [
+        "Angular",
+        "Nestjs",
+        "MySQL",
+        "flutter"
+      ],
+      "description": "RouteOptimizer es un sistema diseñado para la optimización de rutas y el monitoreo en tiempo real. Fue construido usando Angular, NestJS, MySQL, Flutter y las API de Mapbox y Google Maps.",
+      "movie": "assets/movies/RouteOptimizer.webm",
+      "repository": "https://github.com/ErickPenafiel/RouteOptimizer"
+    },
+    {
+      "title": "Inventarios Librería",
+      "tecnologies": [
+        "C#"
+      ],
+      "description": "Juego de tres en raya hecho con React",
+      "movie": "assets/movies/InventoriesBookstore.webm",
+      "repository": "https://github.com/ErickPenafiel/InventoriesBookstore.git"
+    },
+    {
+      "title": "Seguidor de Ratón",
+      "tecnologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "description": "Un seguidor de ratón hecho con React",
+      "movie": "assets/movies/MouseFollower.webm",
+      "web": "https://shimmering-sunflower-0f2431.netlify.app/",
+      "repository": "https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/03-mouse-follower"
+    },
+    {
+      "title": "Seguridad Industrial",
+      "tecnologies": [
+        "Bootstrap",
+        "PHP",
+        "Laravel"
+      ],
+      "description": "Aplicación web para la gestión de la seguridad industrial para gerentes, supervisores y trabajadores.",
+      "movie": "assets/movies/IndustrialSafety.webm",
+      "repository": "https://github.com/ErickPenafiel/IndustrialSafety"
+    },
+    {
+      "title": "Buscador de Películas",
+      "tecnologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "description": "Buscador de películas hecho con React",
+      "movie": "assets/movies/SearchMovies.webm",
+      "web": "https://playful-bavarois-db52d9.netlify.app/",
+      "repository": "https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/05-react-buscador-peliculas"
+    },
+    {
+      "title": "Carrito de Compras",
+      "tecnologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "React"
+      ],
+      "description": "Carrito de compras hecho con React",
+      "movie": "assets/movies/CartShop.webm",
+      "web": "https://exquisite-phoenix-7b195c.netlify.app/",
+      "repository": "https://github.com/ErickPenafiel/ReactCurso/tree/main/Proyectos/06-shopping-cart"
+    },
+    {
+      "title": "Contador de Objetos",
+      "tecnologies": [
+        "Python",
+        "Pytorch"
+      ],
+      "description": "Conteo de objetos hecho con Pytorch YOLOv8 y DeepSort",
+      "movie": "assets/movies/CountingObjects.webm",
+      "repository": "https://github.com/ErickPenafiel/TrackingCountingObjects"
+    },
+    {
+      "title": "Detección de Malezas en Campos Agrícolas",
+      "tecnologies": [
+        "Python",
+        "Pytorch"
+      ],
+      "description": "Detección de malezas en campos agrícolas hecho con Pytorch YOLOv8 y DeepSort",
+      "movie": "assets/movies/WeedDetection.webm",
+      "repository": "https://github.com/ErickPenafiel/DeteccionMalezas"
+    },
+    {
+      "title": "Crud - React con Redux",
+      "tecnologies": [
+        "HTML",
+        "CSS",
+        "Typescript",
+        "React",
+        "Redux"
+      ],
+      "description": "Crud hecho con React y Redux",
+      "movie": "assets/movies/ReduxCrud.webm",
+      "web": "https://superb-bunny-36fa1f.netlify.app/",
+      "repository": "https://github.com/ErickPenafiel/CrudReactRedux"
+    }
+  ]
+}

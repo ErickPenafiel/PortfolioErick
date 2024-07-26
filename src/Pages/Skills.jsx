@@ -27,9 +27,6 @@ export function Skills () {
           <li>
             <p>{t('skills.description5')}</p>
           </li>
-          <li>
-            <p>{t('skills.description6')}</p>
-          </li>
         </ul>
       </div>
 

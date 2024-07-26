@@ -17,11 +17,10 @@
         "title": "Habilidades",
         "programming": "Lenguajes de Programacion",
         "versionControl": "Control de Versiones",
-        "description1": "Desarrollo Frontend: Diseño de interfaces de usuario intuitivas y atractivas utilizando frameworks como React y Astro.",
-        "description2": "Desarrollo Backend: Desarrollo de APIs RESTful utilizando Node.js y Express.",
+        "description1": "Desarrollo Frontend: Diseño de interfaces de usuario intuitivas y atractivas utilizando frameworks como React, Angular y Astro.",
+        "description2": "Desarrollo Backend: Desarrollo de APIs RESTful utilizando Node.js, Express and NestJS.",
         "description3": "Base de Datos: Diseño de bases de datos relacionales y no relacionales utilizando MySQL y MongoDB.",
         "description4": "Control de Versiones: Uso de Git para el control de versiones de proyectos.",
-        "description5": "Metodologías Ágiles: Experiencia trabajando con metodologías ágiles como Scrum.",
-        "description6": "Diseño de interfaces de usuario intuitivas y atractivas utilizando frameworks como React y Angular."
+        "description5": "Metodologías Ágiles: Experiencia trabajando con metodologías ágiles como Scrum."
     }
 }

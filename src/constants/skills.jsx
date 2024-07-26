@@ -1,4 +1,4 @@
-import { BootstrapIcon, CsharpIcon, CssIcon, ExpressIcon, GitIcon, GithubColorIcon, GitlabIcon, HtmlIcon, JavaIcon, JavaScriptIcon, LaravelIcon, MongoDbIcon, MySqlIcon, NodeJsIcon, PhpIcon, PythonIcon, ReactIcon } from '../components/Icons'
+import { AngularIcon, BootstrapIcon, CsharpIcon, CssIcon, ExpressIcon, GitIcon, GithubColorIcon, GitlabIcon, HtmlIcon, JavaIcon, JavaScriptIcon, LaravelIcon, MongoDbIcon, MySqlIcon, NestJsIcon, NodeJsIcon, PhpIcon, PythonIcon, ReactIcon } from '../components/Icons'
 
 export const programmingLanguages = [
   {
@@ -48,6 +48,11 @@ export const frontend = [
     id: crypto.randomUUID(),
     name: 'React',
     icon: <ReactIcon />
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'Angular',
+    icon: <AngularIcon />
   }
 ]
 
@@ -76,8 +81,12 @@ export const backend = [
     id: crypto.randomUUID(),
     name: 'Express',
     icon: <ExpressIcon />
+  },
+  {
+    id: crypto.randomUUID(),
+    name: 'NestJs',
+    icon: <NestJsIcon />
   }
-
 ]
 
 export const versionControl = [
