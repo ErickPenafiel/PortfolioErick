@@ -36,7 +36,7 @@ export function Home () {
 									<PdfIcon width='30px' /> CV - Español
 								</a>
 
-								<a onClick={() => downloadFile('assets/documents/CV - Peñafiel Picha Erick Martin - Ingles.pdf')} className='btn-cv' style={{ marginLeft: '0.5rem' }}>
+								<a onClick={() => downloadFile('assets/documents/CV - Peñafiel Picha Erick Martin - English.pdf')} className='btn-cv' style={{ marginLeft: '0.5rem' }}>
 									<PdfIcon width='30px' /> CV - English
 								</a>
 							</div>
