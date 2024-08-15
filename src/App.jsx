@@ -13,6 +13,7 @@ import globalEs from './translations/es/global.json'
 import globalEn from './translations/en/global.json'
 import projectsEs from './translations/es/projects.json'
 import projectsEn from './translations/en/projects.json'
+import { MaintenancePage } from './Pages/Maintenance'
 
 i18next.init({
   interpolation: { escapeValue: false },
@@ -30,6 +31,8 @@ i18next.init({
 })
 
 function App () {
+  const isMaintenanceMode = true
+
   useLayoutEffect(() => {
     const loader = document.getElementById('loader')
     setTimeout(() => {
@@ -41,7 +44,11 @@ function App () {
   }, [])
 
   return (
-    <>
+    isMaintenanceMode
+      ? (
+      <MaintenancePage />
+        )
+      : (
       <I18nextProvider i18n={i18next}>
         <BrowserRouter>
           <Routes>
@@ -54,7 +61,7 @@ function App () {
           </Routes>
         </BrowserRouter>
       </I18nextProvider>
-    </>
+        )
   )
 }
 

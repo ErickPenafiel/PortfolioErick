@@ -1,0 +1,25 @@
+.maintenance-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+
+.maintenance-container h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.maintenance-container p {
+  font-size: 24px;
+  color: #666;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
